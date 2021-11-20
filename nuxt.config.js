@@ -1,5 +1,10 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  //ssr: true,
+  target: 'static',
+  router: {
+    base: '/banking-report/',
+  },
   head: {
     title: 'banking-report',
     htmlAttrs: {

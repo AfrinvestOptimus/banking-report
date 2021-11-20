@@ -11,7 +11,7 @@
     "
   >
     <img
-      src="@/assets/images/bg-down.png"
+      src="~/assets/images/bg-down.png"
       alt="downbg"
       class="
         absolute
