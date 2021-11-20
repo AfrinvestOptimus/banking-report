@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.action-button{
+  @apply flex-1 flex items-center border border-grey-900 rounded-[3px] px-8 lg:px-16 py-4 lg:py-7 space-x-4
+}
