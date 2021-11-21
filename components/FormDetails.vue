@@ -1,12 +1,14 @@
 <template>
   <ValidationObserver ref="form">
     <form @submit.prevent="makePayment" class="space-y-8 mb-4">
-      <div class="lg:flex justify-between lg:space-x-4 space-y-8 lg:space-y-0">
+      <div
+        class="lg:flex lg:justify-between lg:space-x-4 space-y-8 lg:space-y-0"
+      >
         <ValidationProvider
           v-slot="{ errors }"
           name="firstName"
           rules="required"
-          class="form-control mb-8 lg:mb-0"
+          class="form-control block mb-8 lg:mb-0"
         >
           <input
             type="text"
