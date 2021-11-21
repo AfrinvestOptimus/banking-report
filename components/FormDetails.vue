@@ -150,7 +150,7 @@ export default {
       this.$refs.form.validate().then((success) => {
         if (success && this.price) {
           this.$paystack({
-            key: 'pk_test_ac3bfe1c740c6c4be505fabb6aa098a8b26cec87', // Replace with your public key.
+            key: 'pk_test_aca24f48e6ef0aa66ba323ed522131841abfaf39', // Replace with your public key.
             email: this.email,
             amount: Number(this.price) * 100,
             currency: 'NGN',
