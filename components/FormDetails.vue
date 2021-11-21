@@ -6,7 +6,7 @@
           v-slot="{ errors }"
           name="firstName"
           rules="required"
-          class="form-control"
+          class="form-control block mb-8 lg:mb-0"
         >
           <input
             type="text"
