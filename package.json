@@ -7,7 +7,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "deploy": "push-dir --dir=dist --master=gh-pages --cleanup"
+    "deploy": "push-dir --dir=dist --main=gh-pages --cleanup"
   },
   "dependencies": {
     "core-js": "^3.15.1",
