@@ -57,8 +57,13 @@
             cursor-pointer
           "
         >
-          <span class="font-inter font-medium text-grey-600 text-lg"
+          <span
+            class="font-inter font-medium text-grey-600 text-lg"
+            v-if="!format"
             >Select preferred format</span
+          >
+          <span class="font-inter font-medium text-grey-600 text-lg" v-else
+            >{{ format.title }} - {{ format.price }}</span
           >
           <Cheveron />
         </div>
