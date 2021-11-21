@@ -84,7 +84,7 @@
           class="form-control"
         >
           <input
-            type="tel"
+            type="text"
             class="text-input"
             placeholder="Address"
             :class="{ isError: errors.length }"
