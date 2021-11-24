@@ -7,17 +7,33 @@ export default {
     base: '/banking-report/',
   },
   head: {
-    title: 'banking-report',
+    title: 'Afrinvest 2021 Banking Report',
     htmlAttrs: {
       lang: 'en',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'Find out how the Nigerian banking sector has remained resilient amidst constraints from the pandemic, weak domestic macroeconomic conditions, and stringent regulations.',
+      },
       { name: 'format-detection', content: 'telephone=no' },
+      {
+        hid: 'keywords',
+        name: 'keywords',
+        content: 'banking report 2021, 2021 banking report',
+      },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      { rel: 'icon', type: 'image/jpg', href: '/favicon.jpg' },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/icon?family=Material+Icons',
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -51,7 +67,7 @@ export default {
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ['vue-scrollto/nuxt', 'nuxt-paystack'],
+  modules: ['vue-scrollto/nuxt', 'nuxt-paystack', 'vue-social-sharing/nuxt'],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: { transpile: ['vee-validate'] },

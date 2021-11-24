@@ -94,8 +94,15 @@
           "
         />
         <img
-          src="@/assets/images/report.png"
-          class="w-auto h-[220px] lg:h-[50vh] relative"
+          src="@/assets/images/BSR-2021-Report-sm.jpg"
+          class="
+            w-auto
+            h-[220px]
+            lg:h-[50vh]
+            relative
+            drop-shadow drop-shadow-xl
+            shadow shadow-2xl
+          "
           alt="2021 Nigerian Banking Sector Report"
         />
       </div>
@@ -167,10 +174,24 @@
             </template>
           </ActionButton>
         </div>
-        <div class="flex justify-start space-x-1 items-center">
+        <button
+          class="
+            flex
+            justify-start
+            space-x-1
+            items-center
+            mt-4
+            cursor-pointer
+            font-medium
+          "
+          @click="onRef"
+        >
           <info-icon />
-          <span class="text-grey-700 text-sm">Delivery within Nigeria</span>
-        </div>
+          <span class="text-grey-700 text-sm"
+            >Already Purchased?
+            <span class="text-secondary">Request eBook</span></span
+          >
+        </button>
       </div>
     </div>
     <div class="lg:flex justify-center items-center relative hidden">
@@ -195,5 +216,10 @@ import DownBg from 'assets/svg/DownBg'
 export default {
   name: 'Hero',
   components: { DownBg, DownArrow, InfoIcon, SoftIcon, HardIcon, ActionButton },
+  methods: {
+    onRef() {
+      this.$emit('onRef', true)
+    },
+  },
 }
 </script>

@@ -1,9 +1,9 @@
 <template>
   <div class="antialiased font-roboto">
     <HeaderBar />
-    <Success v-if="success" />
+    <Success v-if="success" :selected="selected" />
     <div v-else>
-      <Hero />
+      <Hero @onRef="isRefModal($event)" />
       <Highlights />
       <Summary />
       <Purchase
@@ -16,6 +16,7 @@
         :types="formatTypes"
         @selectItem="hideModal($event)"
       />
+      <ReferenceCode v-if="isReference" @onRef="isRefModal($event)" />
     </div>
     <Footer />
   </div>
@@ -30,6 +31,7 @@ import Purchase from '~/components/sections/Purchase'
 import Footer from '~/components/sections/Footer'
 import OptionModal from '~/components/sections/OptionModal'
 import Success from '~/components/sections/Success'
+import ReferenceCode from '@/components/sections/ReferenceCode'
 
 const formatTypes = [
   {
@@ -67,6 +69,7 @@ const formatTypes = [
 export default {
   name: 'HomePage',
   components: {
+    ReferenceCode,
     Success,
     OptionModal,
     Footer,
@@ -81,7 +84,9 @@ export default {
       format: null,
       formatTypes,
       modal: false,
+      isReference: false,
       success: false,
+      selected: null,
     }
   },
   methods: {
@@ -90,11 +95,18 @@ export default {
     },
     hideModal(selectedItem) {
       this.modal = false
-      this.format = selectedItem
+      if (selectedItem) {
+        this.format = selectedItem
+      }
     },
-    successPage() {
+    successPage(bought) {
       this.success = true
+      this.selected = bought
+    },
+    isRefModal(state) {
+      this.isReference = state
     },
   },
 }
 </script>
+<style></style>

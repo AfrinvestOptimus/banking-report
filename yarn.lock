@@ -7030,6 +7030,11 @@
   "resolved" "https://registry.npmjs.org/nuxt-paystack/-/nuxt-paystack-0.0.12.tgz"
   "version" "0.0.12"
 
+"nuxt-social-meta@^1.0.0":
+  "integrity" "sha512-IL0jGSqj7eRq7YxkMTHLPBX+mDtmnxOiyhle35xWwQL7CwIau05SysQyjMrQSvEqKL4zQAOM5+DGuPVcthfZ7Q=="
+  "resolved" "https://registry.npmjs.org/nuxt-social-meta/-/nuxt-social-meta-1.0.0.tgz"
+  "version" "1.0.0"
+
 "nuxt-vite@^0.3.5":
   "integrity" "sha512-rAtmMycDU4k88S/H8WiCCqzr99lnYPTxgekU7+HYVoLHE62aol2E0/ci1MjBfBVg5DbhKHvqDn1nLCL5ye4Vsg=="
   "resolved" "https://registry.npmjs.org/nuxt-vite/-/nuxt-vite-0.3.5.tgz"
@@ -10211,6 +10216,11 @@
     "serialize-javascript" "^3.1.0"
     "source-map" "0.5.6"
 
+"vue-social-sharing@^3.0.8":
+  "integrity" "sha512-56gOES9fq7kyzuW7+lVAKtoG9Wi4MGjIfMqXAFZv1QSwW00EN0X5zJDSQjZn1Y2cIU6DUG+1KfJB7r7nTuiISA=="
+  "resolved" "https://registry.npmjs.org/vue-social-sharing/-/vue-social-sharing-3.0.8.tgz"
+  "version" "3.0.8"
+
 "vue-style-loader@^4.1.0", "vue-style-loader@^4.1.3":
   "integrity" "sha512-sFuh0xfbtpRlKfm39ss/ikqs9AbKCoXZBpHeVZ8Tx650o0k0q/YCM7FRvigtxpACezfq6af+a7JeqVTWvncqDg=="
   "resolved" "https://registry.npmjs.org/vue-style-loader/-/vue-style-loader-4.1.3.tgz"
@@ -10232,7 +10242,7 @@
   "resolved" "https://registry.npmjs.org/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz"
   "version" "1.9.1"
 
-"vue@^2.0.0", "vue@^2.5.18", "vue@^2.6.12":
+"vue@^2.0.0", "vue@^2.5.18", "vue@^2.6.10", "vue@^2.6.12":
   "integrity" "sha512-x2284lgYvjOMj3Za7kqzRcUSxBboHqtgRE2zlos1qWaOye5yUmHn42LB1250NJBLRwEcdrB0JRwyPTEPhfQjiQ=="
   "resolved" "https://registry.npmjs.org/vue/-/vue-2.6.14.tgz"
   "version" "2.6.14"

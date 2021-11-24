@@ -5,3 +5,20 @@
 .action-button{
   @apply flex-1 flex items-center border border-grey-900 rounded-[3px] px-8 lg:px-16 py-4 lg:py-7 space-x-4
 }
+.isError {
+  @apply border-2 border-red-500;
+}
+.error {
+  @apply text-red-500 font-roboto text-xs tracking-[2px];
+}
+
+/*.fade-enter-from{*/
+/*  opacity: 0;*/
+/*}*/
+/*.fade-enter-to{*/
+/*  opacity: 1;*/
+/*}*/
+/*.fade-enter-active{*/
+/*  transition: all 2s ease;*/
+/*}*/
+

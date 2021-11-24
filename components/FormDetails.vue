@@ -62,7 +62,7 @@
       <div class="flex">
         <ValidationProvider
           v-slot="{ errors }"
-          rules="required"
+          rules="required|numeric"
           class="form-control"
         >
           <input
@@ -70,7 +70,7 @@
             class="text-input"
             :class="{ isError: errors.length }"
             placeholder="Phone number"
-            v-model="phone"
+            v-model.trim="phone"
           />
           <span class="error">
             {{ errors[0] }}
@@ -88,7 +88,7 @@
             class="text-input"
             placeholder="Address"
             :class="{ isError: errors.length }"
-            v-model="address"
+            v-model.trim="address"
           />
           <span class="error">
             {{ errors[0] }}
@@ -156,11 +156,13 @@ export default {
             currency: 'NGN',
             label: this.firstName,
             metadata: {
-              'First Name': this.firstName,
-              'Last Name': this.lastName,
-              'Email Address': this.email,
-              'Phone Number': this.phone,
-              Address: this.address,
+              first_name: this.firstName,
+              last_name: this.lastName,
+              email_address: this.email,
+              phone: this.phone,
+              address: this.address,
+              type: 'bsr',
+              format: this.state?.title,
             },
             channels: [
               'card',
@@ -172,11 +174,11 @@ export default {
             ],
             callback: () => {
               //alert('Payment went through')
-              this.$emit('success')
+              this.$emit('success', this.state)
             },
             onClose: () => {
               // Do something.
-              alert('Something went wrong')
+              alert("Oops! You didn't complete the transaction. Kindly retry")
             },
           })
         }
@@ -194,8 +196,5 @@ export default {
 }
 .isError {
   @apply border-2 border-red-500;
-}
-.error {
-  @apply text-red-500 font-roboto text-xs tracking-[2px];
 }
 </style>

@@ -15,9 +15,9 @@
   >
     <div class="flex-1 hidden lg:block">
       <img
-        src="@/assets/images/report-lg.png"
+        src="@/assets/images/BSR-2021-Report-lg.jpg"
         alt="2021 Nigerian Banking Sector Report"
-        class="w-[474px] h-auto"
+        class="w-[474px] h-auto drop-shadow drop-shadow-xl shadow shadow-2xl"
       />
     </div>
     <div class="text-left flex-1" id="highlights">

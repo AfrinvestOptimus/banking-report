@@ -68,7 +68,7 @@
           <Cheveron />
         </div>
         <div id="form">
-          <FormDetails :state="format" @success="successPay" />
+          <FormDetails :state="format" @success="successPay($event)" />
           <div class="flex justify-start space-x-1 items-center">
             <InfoIcon />
             <span class="text-grey-500 text-sm"
@@ -98,8 +98,8 @@ export default {
     modalShow() {
       this.$emit('showModal')
     },
-    successPay() {
-      this.$emit('successPay')
+    successPay(bought) {
+      this.$emit('successPay', bought)
     },
   },
 }

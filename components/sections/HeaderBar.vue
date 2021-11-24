@@ -13,19 +13,23 @@
     "
   >
     <Logo width="109" height="44" color="#fff" />
-    <div
-      class="
-        text-sm
-        font-medium
-        cursor-pointer
-        py-2.5
-        flex
-        space-x-2
-        items-center
-      "
-    >
-      <ShareIcon /> <span class="hidden lg:block">SHARE THIS PAGE</span
-      ><span class="lg:hidden">SHARE</span>
+    <div>
+      <ShareNetwork
+        network="linkedIn"
+        url="https://afrinvest.com"
+        class="
+          text-sm
+          font-medium
+          cursor-pointer
+          py-2.5
+          flex
+          space-x-2
+          items-center
+        "
+      >
+        <ShareIcon /> <span class="hidden lg:block">SHARE THIS PAGE</span
+        ><span class="lg:hidden">SHARE</span>
+      </ShareNetwork>
     </div>
   </div>
 </template>

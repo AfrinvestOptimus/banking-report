@@ -35,7 +35,7 @@
           pt-11
           lg:pt-40
           pb-20
-          items-start
+          items-center
           relative
           px-6
           xl:px-0
@@ -55,8 +55,15 @@
           "
         >
           <img
-            src="@/assets/images/report.png"
-            class="w-auto h-[220px] lg:h-[50vh] relative"
+            src="@/assets/images/BSR-2021-Report-sm.jpg"
+            class="
+              w-auto
+              h-[220px]
+              lg:h-[50vh]
+              relative
+              drop-shadow drop-shadow-xl
+              shadow shadow-2xl
+            "
             alt="2021 Nigerian Banking Sector Report"
           />
         </div>
@@ -86,34 +93,33 @@
             <p class="font-roboto text-base lg:text-lg leading-7 w-full">
               Thank you for your interest in owning the Afrivest 2021 Banking
               Report.<br class="hidden lg:block" />
-              Click the link below to download. Your hardcopy will be sent to
-              the <br class="hidden xl:block" />
-              address you’ve provided.
+              <span
+                v-if="
+                  selected.id === 4 || selected.id === 2 || selected.id === 3
+                "
+                >You'll get a mail in your containing the downloaded file in
+                your email in a few minutes. <br class="hidden lg:block"
+              /></span>
+              <span v-if="selected.id === 3 || selected.id === 1"
+                >Your hard copy will be sent to the address you’ve
+                provided.</span
+              >
             </p>
           </div>
 
-          <div class="space-y-4 xl:space-y-0 py-4">
-            <ActionButton
-              class="action-button justify-center lg:px-12 space-x-8"
-            >
-              <template v-slot:icon>
-                <DownloadIcon />
-              </template>
-              <template v-slot:text>
-                <span
-                  class="
-                    text-left text-grey-900
-                    leading-normal
-                    font-inter
-                    text-sm
-                    lg:text-base
-                    tracking-[3px]
-                    font-semibold
-                  "
-                  >DOWNLOAD</span
-                >
-              </template>
-            </ActionButton>
+          <div
+            class="
+              flex
+              justify-start
+              space-x-1
+              items-end
+              mt-4
+              cursor-pointer
+              font-medium
+            "
+          >
+            <span class="material-icons text-grey-600">home</span>
+            <a href="/" class="text-secondary"> Go Back Home</a>
           </div>
         </div>
       </div>
@@ -123,9 +129,11 @@
 
 <script>
 import DownloadIcon from 'assets/svg/DownloadIcon'
+import InfoIcon from 'assets/svg/InfoIcon'
 export default {
   name: 'success',
-  components: { DownloadIcon },
+  props: ['selected'],
+  components: { InfoIcon, DownloadIcon },
 }
 </script>
 

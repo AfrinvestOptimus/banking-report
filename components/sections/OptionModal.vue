@@ -17,6 +17,11 @@
     "
   >
     <div class="modal-box bg-white py-8 md:py-20 px-6 md:px-10">
+      <div class="-mt-6 md:-mt-16 md:-mr-4 -mr-4 flex justify-end">
+        <button @click="() => this.$emit('selectItem')" class="">
+          <span class="material-icons text-grey-500 text-xl">close</span>
+        </button>
+      </div>
       <h2
         class="
           uppercase
