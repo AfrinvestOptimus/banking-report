@@ -88,7 +88,15 @@
             long-term growth and sustainability.
           </p>
           <div
-            class="flex space-x-3 cursor-pointer"
+            class="
+              flex
+              space-x-3
+              cursor-pointer
+              hover:transform hover:translate-x-2
+              transition
+              duration-500
+              ease-in-out
+            "
             v-scroll-to="'#paymentPane'"
           >
             <HardIcon height="20px" width="15.38px" color="#FF5F00" />

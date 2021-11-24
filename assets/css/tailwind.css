@@ -3,22 +3,37 @@
 @tailwind utilities;
 
 .action-button{
-  @apply flex-1 flex items-center border border-grey-900 rounded-[3px] px-8 lg:px-16 py-4 lg:py-7 space-x-4
+  @apply flex-1 flex items-center border border-grey-900 rounded-[3px] px-8 lg:px-16 py-4 lg:py-7 space-x-4 hover:-translate-y-1 hover:scale-110 transition duration-500 ease-in-out
 }
 .isError {
   @apply border-2 border-red-500;
 }
 .error {
-  @apply text-red-500 font-roboto text-xs tracking-[2px];
+  @apply text-red-500 font-roboto text-xs tracking-[1px];
+}
+.submit-btn{
+  @apply mt-6 bg-[#64CE86] rounded-[3px] text-white py-4 px-7 font-inter font-semibold leading-normal uppercase tracking-[3px] disabled:opacity-50 disabled:cursor-not-allowed hover:bg-secondary hover:-translate-y-1 hover:scale-110 transition duration-500 ease-in-out
 }
 
-/*.fade-enter-from{*/
-/*  opacity: 0;*/
-/*}*/
-/*.fade-enter-to{*/
-/*  opacity: 1;*/
-/*}*/
-/*.fade-enter-active{*/
-/*  transition: all 2s ease;*/
-/*}*/
+.fade-enter, .fade-leave-to{
+  opacity: 0;
+}
+.fade-enter-to, .fade-leave{
+  opacity: 1;
+}
+.fade-enter-active, .fade-leave-active{
+  transition: all .4s ease;
+}
 
+.scale-enter, .scale-leave-to{
+  opacity: 0;
+  transform: scale(0.6);
+}
+
+.scale-enter-to, .scale-leave{
+  opacity: 1;
+  transform: scale(1);
+}
+.scale-enter-active, .scale-leave-active{
+  transition: all .7s ease;
+}

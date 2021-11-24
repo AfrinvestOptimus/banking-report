@@ -43,6 +43,7 @@ export default {
   plugins: [
     { src: '~/plugins/vue-scrollTo.js' },
     { src: '~/plugins/vee-validate.js' },
+    { src: '~/plugins/vue-observe.js' },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

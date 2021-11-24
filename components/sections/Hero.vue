@@ -93,18 +93,20 @@
             xl:left-[calc(50%-20px)] xl:-top-32
           "
         />
-        <img
-          src="@/assets/images/BSR-2021-Report-sm.jpg"
-          class="
-            w-auto
-            h-[220px]
-            lg:h-[50vh]
-            relative
-            drop-shadow drop-shadow-xl
-            shadow shadow-2xl
-          "
-          alt="2021 Nigerian Banking Sector Report"
-        />
+        <transition appear name="scale">
+          <img
+            src="@/assets/images/BSR-2021-Report-sm.jpg"
+            class="
+              w-auto
+              h-[220px]
+              lg:h-[50vh]
+              relative
+              drop-shadow drop-shadow-xl
+              shadow shadow-2xl
+            "
+            alt="2021 Nigerian Banking Sector Report"
+          />
+        </transition>
       </div>
 
       <!--  Hero Content    -->

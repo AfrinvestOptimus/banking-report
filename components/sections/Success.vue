@@ -119,7 +119,7 @@
             "
           >
             <span class="material-icons text-grey-600">home</span>
-            <a href="/" class="text-secondary"> Go Back Home</a>
+            <a href="/banking-report/" class="text-secondary"> Go Back Home</a>
           </div>
         </div>
       </div>

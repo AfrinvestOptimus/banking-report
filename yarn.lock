@@ -7030,11 +7030,6 @@
   "resolved" "https://registry.npmjs.org/nuxt-paystack/-/nuxt-paystack-0.0.12.tgz"
   "version" "0.0.12"
 
-"nuxt-social-meta@^1.0.0":
-  "integrity" "sha512-IL0jGSqj7eRq7YxkMTHLPBX+mDtmnxOiyhle35xWwQL7CwIau05SysQyjMrQSvEqKL4zQAOM5+DGuPVcthfZ7Q=="
-  "resolved" "https://registry.npmjs.org/nuxt-social-meta/-/nuxt-social-meta-1.0.0.tgz"
-  "version" "1.0.0"
-
 "nuxt-vite@^0.3.5":
   "integrity" "sha512-rAtmMycDU4k88S/H8WiCCqzr99lnYPTxgekU7+HYVoLHE62aol2E0/ci1MjBfBVg5DbhKHvqDn1nLCL5ye4Vsg=="
   "resolved" "https://registry.npmjs.org/nuxt-vite/-/nuxt-vite-0.3.5.tgz"
@@ -10189,6 +10184,11 @@
   "integrity" "sha512-ZMjqRpWabMPqPc7gIrG0Nw6vRf1+itwf0Itft7LbMXs2g3Zs/NFmevjZGN1x7K3Q95GmIjWbQZTVerxiBxI+0g=="
   "resolved" "https://registry.npmjs.org/vue-no-ssr/-/vue-no-ssr-1.1.1.tgz"
   "version" "1.1.1"
+
+"vue-observe-visibility@^1.0.0":
+  "integrity" "sha512-s5TFh3s3h3Mhd3jaz3zGzkVHKHnc/0C/gNr30olO99+yw2hl3WBhK3ng3/f9OF+qkW4+l7GkmwfAzDAcY3lCFg=="
+  "resolved" "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-1.0.0.tgz"
+  "version" "1.0.0"
 
 "vue-router@^3.5.1":
   "integrity" "sha512-FUlILrW3DGitS2h+Xaw8aRNvGTwtuaxrRkNSHWTizOfLUie7wuYwezeZ50iflRn8YPV5kxmU2LQuu3nM/b3Zsg=="

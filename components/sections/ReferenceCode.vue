@@ -1,21 +1,22 @@
 <template>
-  <div
-    class="
-      modal
-      fixed
-      bg-[rgba(0,0,0,.7)]
-      top-0
-      bottom-0
-      right-0
-      left-0
-      flex
-      justify-center
-      items-center
-      px-4
-      md:px-0
-    "
-  >
-    <transition name="fade">
+  <transition name="fade" appear>
+    <div
+      class="
+        modal
+        fixed
+        bg-[rgba(0,0,0,.7)]
+        top-0
+        bottom-0
+        right-0
+        left-0
+        flex
+        justify-center
+        items-center
+        px-4
+        md:px-0
+        z-20
+      "
+    >
       <div class="modal-box bg-white py-8 md:py-12 px-6 md:px-10 max-w-[700px]">
         <div class="-mt-6 md:-mt-6 md:-mr-4 -mr-4 flex justify-end">
           <button @click="() => this.$emit('onRef', false)" class="">
@@ -66,30 +67,14 @@
                 {{ errors[0] }}
               </span>
             </ValidationProvider>
-            <button
-              :disabled="true"
-              type="submit"
-              class="
-                mt-8
-                bg-[#64CE86]
-                rounded-[3px]
-                text-white
-                py-4
-                px-7
-                font-inter font-semibold
-                leading-normal
-                uppercase
-                tracking-[3px]
-                disabled:opacity-50
-              "
-            >
+            <button :disabled="true" type="submit" class="submit-btn">
               SUBMIT
             </button>
           </form>
         </ValidationObserver>
       </div>
-    </transition>
-  </div>
+    </div>
+  </transition>
 </template>
 
 <script>
@@ -112,16 +97,5 @@ export default {
 <style>
 .isError {
   @apply border-2 border-red-500;
-}
-.fade-enter-from {
-  opacity: 0;
-  transform: translateY(-60px);
-}
-.fade-enter-to {
-  opacity: 1;
-  transform: translateY(0);
-}
-.fade-enter-active {
-  transition: all 3s ease;
 }
 </style>

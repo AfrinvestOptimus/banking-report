@@ -16,6 +16,7 @@
     <div>
       <ShareNetwork
         network="linkedIn"
+        title="Afrinvest 2021 Banking Sector Report"
         url="https://afrinvest.com"
         class="
           text-sm

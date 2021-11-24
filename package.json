@@ -13,8 +13,8 @@
     "core-js": "^3.15.1",
     "nuxt": "^2.15.7",
     "nuxt-paystack": "^0.0.12",
-    "nuxt-social-meta": "^1.0.0",
     "vee-validate": "^3.2.1",
+    "vue-observe-visibility": "^1.0.0",
     "vue-scrollto": "^2.20.0",
     "vue-social-sharing": "^3.0.8"
   },

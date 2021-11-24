@@ -13,11 +13,15 @@
       xl:space-x-0
     "
   >
-    <div class="flex-1 hidden lg:block">
+    <div
+      class="flex-1 hidden lg:block"
+      v-observe-visibility="visibilityChanged"
+    >
       <img
         src="@/assets/images/BSR-2021-Report-lg.jpg"
         alt="2021 Nigerian Banking Sector Report"
         class="w-[474px] h-auto drop-shadow drop-shadow-xl shadow shadow-2xl"
+        :class="{ scale: scale }"
       />
     </div>
     <div class="text-left flex-1" id="highlights">
@@ -107,5 +111,18 @@ import ListCheckIcon from 'assets/svg/listCheckIcon'
 export default {
   name: 'Highlights',
   components: { ListCheckIcon, SummaryIcon, CheckList },
+  data() {
+    return {
+      scale: false,
+    }
+  },
+  methods: {
+    visibilityChanged(isVisible, entry) {
+      if (isVisible) {
+        this.scale = true
+        //console.log('Entry', entry)
+      }
+    },
+  },
 }
 </script>

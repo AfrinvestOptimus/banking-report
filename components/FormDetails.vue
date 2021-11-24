@@ -72,9 +72,11 @@
             placeholder="Phone number"
             v-model.trim="phone"
           />
-          <span class="error">
-            {{ errors[0] }}
-          </span>
+          <transition name="scale">
+            <span class="error">
+              {{ errors[0] }}
+            </span>
+          </transition>
         </ValidationProvider>
       </div>
       <div class="flex" v-if="addressNeeded">
@@ -90,27 +92,17 @@
             :class="{ isError: errors.length }"
             v-model.trim="address"
           />
-          <span class="error">
-            {{ errors[0] }}
-          </span>
+          <transition name="scale">
+            <span class="error">
+              {{ errors[0] }}
+            </span>
+          </transition>
         </ValidationProvider>
       </div>
       <button
         :disabled="!state"
         type="submit"
-        class="
-          mt-6
-          bg-[#64CE86]
-          rounded-[3px]
-          text-white
-          py-4
-          px-7
-          font-inter font-semibold
-          leading-normal
-          uppercase
-          tracking-[3px]
-          disabled:opacity-50
-        "
+        class="submit-btn"
         :class="{ 'w-full': state }"
       >
         {{ state ? `BUY ${state.title} - ${state.price}` : 'BUY NOW' }}
@@ -192,9 +184,9 @@ export default {
   @apply lg:flex-1 w-full lg:w-auto;
 }
 .text-input {
-  @apply appearance-none border border-grey-500 rounded-[2px] w-full bg-transparent placeholder-grey-500 text-grey-900 text-sm px-5 py-2.5 leading-normal outline-none border-2;
+  @apply appearance-none border border-grey-500 rounded-[2px] w-full bg-transparent placeholder-grey-500 text-grey-900 text-sm px-5 py-2.5 leading-normal outline-none border-2 transition duration-500 ease-in-out;
 }
 .isError {
-  @apply border-2 border-red-500;
+  @apply border-2 border-red-500 transition duration-500 ease-in-out;
 }
 </style>
