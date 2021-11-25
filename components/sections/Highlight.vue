@@ -49,33 +49,15 @@
         <CheckList>Crystal ball: Key outlook for FY:2021</CheckList>
       </ul>
       <ul class="py-8 space-y-5 lg:hidden">
-        <CheckList
-          >The climate for the banking sector in 2019 and the first half of 2020
-          was characterized by an assertive stance by the CBN and a change in
-          business</CheckList
-        >
-        <CheckList
-          >The climate for the banking sector in 2019 and the first half of 2020
-          was</CheckList
-        >
-        <CheckList
-          >The climate for the banking sector in 2019 and the first half of 2020
-          was characterized by an assertive stance by the CBN and a change in
-          business</CheckList
-        >
-        <CheckList
-          >The climate for the banking sector in 2019 and the first half of 2020
-          was characterized by an assertive stance</CheckList
-        >
-        <CheckList
-          >The climate for the banking sector in 2019 and the first half of 2020
-          was characterized assertive stance by the CBN and</CheckList
-        >
-        <CheckList
-          >The climate for 2020 was characterized by an assertive stance by the
-          CBN and a change in business</CheckList
-        >
-        <CheckList>The climate for the banking sector in 2019</CheckList>
+        <CheckList>Global Macroeconomic Review & Outlook</CheckList>
+        <CheckList>Trends in the Global Banking Industry</CheckList>
+        <CheckList>Domestic Macroeconomic Review</CheckList>
+        <CheckList>Fiscal Policy: 2021/22 Budget Review & Analysis</CheckList>
+        <CheckList>Prominent Legislation & Socio-economic Update</CheckList>
+        <CheckList>Monetary Policy Review & Outlook</CheckList>
+        <CheckList>Financial Sector Regulation</CheckList>
+        <CheckList>Banking Sector Performance In 2020 and H1:2021</CheckList>
+        <CheckList>Crystal ball: Key outlook for FY:2021</CheckList>
       </ul>
       <div class="mt-4">
         <ActionButton

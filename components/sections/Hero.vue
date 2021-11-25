@@ -133,8 +133,8 @@
               ></span
             >
             <span class="lg:hidden"
-              >2021 BANKING<br />
-              SECTOR <span class="text-secondary">REPORT</span></span
+              >2021 NIGERIAN BANKING SECTOR
+              <span class="text-secondary">REPORT</span></span
             >
           </h1>
           <p class="font-roboto text-base lg:text-lg leading-7 hidden lg:block">
@@ -146,10 +146,9 @@
             conditions, and stringent regulations.
           </p>
           <p class="font-roboto text-base xl:text-lg leading-7 lg:hidden">
-            Although it was only 365 days (give or take a few hours), the past
-            year was momentous in many ways. A new office, a fleet of new faces,
-            and more than a few late nights building a product to be proud
-            of—2015 was a year to remember.
+            Find out how the Nigerian banking sector has remained resilient
+            amidst constraints from the pandemic, weak domestic macroeconomic
+            conditions, and stringent regulations.
           </p>
         </div>
         <div class="space-y-4 xl:space-y-0 py-2">

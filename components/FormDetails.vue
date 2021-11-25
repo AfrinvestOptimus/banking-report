@@ -141,6 +141,17 @@ export default {
     makePayment() {
       this.$refs.form.validate().then((success) => {
         if (success && this.price) {
+          // console.log({
+          //   metadata: {
+          //     first_name: this.firstName,
+          //     last_name: this.lastName,
+          //     email_address: this.email,
+          //     phone: this.phone,
+          //     address: this.address,
+          //     type: 'bsr',
+          //     format: this.state?.title,
+          //   },
+          // })
           this.$paystack({
             key: 'pk_test_aca24f48e6ef0aa66ba323ed522131841abfaf39', // Replace with your public key.
             email: this.email,
