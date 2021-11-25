@@ -156,7 +156,7 @@ export default {
           }
 
           this.$paystack({
-            key: 'pk_test_aca24f48e6ef0aa66ba323ed522131841abfaf39', // Replace with your public key.
+            key: 'pk_live_58b42787f03357268710131b9bf461476b8fecff', // Replace with your public key.
             email: this.email,
             amount: Number(this.price) * 100,
             currency: 'NGN',
@@ -181,11 +181,30 @@ export default {
             ],
             callback: () => {
               //alert('Payment went through')
+              this.firstName = ''
+              this.lastName = ''
+              this.email = ''
+              this.phone = ''
+              this.address = ''
               this.$emit('success', this.state)
             },
             onClose: () => {
               // Do something.
-              alert("Oops! You didn't complete the transaction. Kindly retry")
+              this.$confirm(
+                "You didn't complete the transaction. Want to try again?",
+                'Oops',
+                'question'
+              )
+                .then(() => {
+                  this.makePayment()
+                })
+                .catch(() => {
+                  this.firstName = ''
+                  this.lastName = ''
+                  this.email = ''
+                  this.phone = ''
+                  this.address = ''
+                })
             },
           })
         }
