@@ -79,9 +79,9 @@
           </transition>
         </ValidationProvider>
       </div>
-      <div class="flex" v-if="addressNeeded">
+      <div class="flex">
         <ValidationProvider
-          :rules="{ required: addressNeeded }"
+          rules="required"
           v-slot="{ errors }"
           class="form-control"
         >
@@ -131,11 +131,11 @@ export default {
         return parseFloat(price.replace(/,/g, ''))
       }
     },
-    addressNeeded: function () {
-      if (this.state?.id === 1 || this.state?.id === 3) {
-        return true
-      }
-    },
+    // addressNeeded: function () {
+    //   if (this.state?.id === 1 || this.state?.id === 3) {
+    //     return true
+    //   }
+    // },
   },
   methods: {
     makePayment() {
