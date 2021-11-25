@@ -141,17 +141,20 @@ export default {
     makePayment() {
       this.$refs.form.validate().then((success) => {
         if (success && this.price) {
-          // console.log({
-          //   metadata: {
-          //     first_name: this.firstName,
-          //     last_name: this.lastName,
-          //     email_address: this.email,
-          //     phone: this.phone,
-          //     address: this.address,
-          //     type: 'bsr',
-          //     format: this.state?.title,
-          //   },
-          // })
+          let formatSlug = ''
+          if (this.state?.title === 'HARD COPY ONLY') {
+            formatSlug = 'HCopy'
+          }
+          if (this.state?.title === 'eCOPY ONLY') {
+            formatSlug = 'eCOPY'
+          }
+          if (this.state?.title === 'HARD COPY + eCOPY') {
+            formatSlug = 'HCOPYeCOPY'
+          }
+          if (this.state?.title === 'eCOPY INCLUDING TABLES') {
+            formatSlug = 'eCOPYTable'
+          }
+
           this.$paystack({
             key: 'pk_test_aca24f48e6ef0aa66ba323ed522131841abfaf39', // Replace with your public key.
             email: this.email,
@@ -166,6 +169,7 @@ export default {
               address: this.address,
               type: 'bsr',
               format: this.state?.title,
+              formatSlug: formatSlug,
             },
             channels: [
               'card',

@@ -76,16 +76,16 @@
             loan exposure, reduced interest rate on intervention facilities
             (from 9.0% to 5.0%) and granted banks the forbearance to restructure
             loan exposure. As a result, real GDP growth in the financial
-            institutions sector grew by 13.3% y/y.
+            institutions sector grew by 13.3% y/y in 2020.
           </p>
           <p>
-            Broadly speaking, is safe to conclude that the Nigerian banking
+            Broadly speaking, it is safe to conclude that the Nigerian banking
             sector remained resilient in the face of COVID-19 and several
-            regulatory headwinds. Nevertheless,banks' earnings and asset quality
-            have taken a beating while being under pressure from competition.
-            Also, the pandemic has provided learning points for players in the
-            sector to reshape and reimagine their product/services offerings for
-            long-term growth and sustainability.
+            regulatory headwinds. Nevertheless, banks' earnings and asset
+            quality have taken a beating while being under pressure from
+            competition. Also, the pandemic has provided learning points for
+            players in the sector to reshape and reimagine their
+            product/services offerings for long-term growth and sustainability.
           </p>
           <div
             class="

@@ -65,7 +65,12 @@ export default {
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ['vue-scrollto/nuxt', 'nuxt-paystack', 'vue-social-sharing/nuxt'],
+  modules: [
+    'vue-scrollto/nuxt',
+    'nuxt-paystack',
+    'vue-social-sharing/nuxt',
+    '@nuxtjs/axios',
+  ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: { transpile: ['vee-validate'] },

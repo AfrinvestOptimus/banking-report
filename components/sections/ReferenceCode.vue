@@ -88,7 +88,13 @@ export default {
   },
   methods: {
     sendRefCode() {
-      this.$refs.form.validate().then((success) => {})
+      this.$refs.form.validate().then(async (success) => {
+        if (success) {
+          return await this.$axios.$get('http://icanhazip.com').then(() => {
+            alert('Kindly check your email for a new code')
+          })
+        }
+      })
     },
   },
 }

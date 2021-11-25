@@ -98,8 +98,8 @@
                   v-if="
                     selected.id === 4 || selected.id === 2 || selected.id === 3
                   "
-                  >You'll get a mail in your containing the downloaded file in
-                  your email in a few minutes. <br class="hidden lg:block"
+                  >You'll get an email containing the downloadable file in your
+                  email within the next 20 minutes. <br class="hidden lg:block"
                 /></span>
                 <span v-if="selected.id === 3 || selected.id === 1"
                   >Your hard copy will be sent to the address you’ve
