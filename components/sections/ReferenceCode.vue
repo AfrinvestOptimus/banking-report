@@ -115,7 +115,7 @@ export default {
             })
             .catch(() => {
               this.refCode = ''
-              this.isLoading = falses
+              this.isLoading = false
               this.$emit('onRef', false)
               this.$alert(
                 'The code you inputted is incorrect, kindly confirm the code and try again',
