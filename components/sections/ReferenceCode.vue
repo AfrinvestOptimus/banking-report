@@ -67,8 +67,12 @@
                 {{ errors[0] }}
               </span>
             </ValidationProvider>
-            <button :disabled="true" type="submit" class="submit-btn">
-              SUBMIT
+            <button
+              :disabled="!refCode || offBtn"
+              type="submit"
+              class="submit-btn"
+            >
+              {{ isLoading ? 'LOADING...' : 'SUBMIT' }}
             </button>
           </form>
         </ValidationObserver>
@@ -84,15 +88,41 @@ export default {
   data() {
     return {
       refCode: '',
+      isLoading: false,
     }
+  },
+  computed: {
+    offBtn() {
+      if (this.isLoading) {
+        return true
+      }
+    },
   },
   methods: {
     sendRefCode() {
       this.$refs.form.validate().then(async (success) => {
         if (success) {
-          return await this.$axios.$get('http://icanhazip.com').then(() => {
-            alert('Kindly check your email for a new code')
-          })
+          this.isLoading = true
+          return await this.$axios
+            .$get(
+              `${process.env.BASE_URL}/api/v1/website/book/reference?ref=${this.refCode}`
+            )
+            .then((res) => {
+              this.refCode = ''
+              this.isLoading = false
+              this.$emit('onRef', false)
+              this.$alert(res.message, 'Check your email!', 'success')
+            })
+            .catch(() => {
+              this.refCode = ''
+              this.isLoading = falses
+              this.$emit('onRef', false)
+              this.$alert(
+                'The code you inputted is incorrect, kindly confirm the code and try again',
+                'Incorrect Code',
+                'error'
+              )
+            })
         }
       })
     },

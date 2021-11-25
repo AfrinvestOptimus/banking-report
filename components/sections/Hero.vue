@@ -185,6 +185,7 @@
             cursor-pointer
             font-medium
           "
+          @click="onRef"
         >
           <info-icon />
           <span class="text-grey-700 text-sm"

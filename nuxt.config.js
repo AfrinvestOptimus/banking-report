@@ -41,6 +41,7 @@ export default {
     { src: '~/plugins/vue-scrollTo.js' },
     { src: '~/plugins/vee-validate.js' },
     { src: '~/plugins/vue-observe.js' },
+    { src: '~/plugins/vue-alert.js', mode: 'client' },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -70,6 +71,7 @@ export default {
     'nuxt-paystack',
     'vue-social-sharing/nuxt',
     '@nuxtjs/axios',
+    '@nuxtjs/dotenv',
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
