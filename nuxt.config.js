@@ -1,11 +1,8 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
-  ssr: false,
+  // ssr: false,
   //mode: 'spa',
   target: 'static',
-  router: {
-    base: '/banking-report/',
-  },
   head: {
     title: 'Afrinvest 2021 Banking Report',
     htmlAttrs: {
