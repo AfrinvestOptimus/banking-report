@@ -62,7 +62,11 @@
       <div class="flex">
         <ValidationProvider
           v-slot="{ errors }"
-          rules="required|numeric"
+          :rules="{
+            required: true,
+            regex:
+              /^(\+)?[1-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]?[0-9]?[0-9]?$/,
+          }"
           class="form-control"
         >
           <input

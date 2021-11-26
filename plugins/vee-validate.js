@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import { ValidationObserver, ValidationProvider, extend } from 'vee-validate'
-import { required, email, integer, numeric } from 'vee-validate/dist/rules'
+import { required, email, regex, numeric } from 'vee-validate/dist/rules'
 
 Vue.component('ValidationProvider', ValidationProvider)
 Vue.component('ValidationObserver', ValidationObserver)
@@ -18,4 +18,8 @@ extend('email', {
 extend('numeric', {
   ...numeric,
   message: 'This field needs to be a phone number',
+})
+extend('regex', {
+  ...regex,
+  message: 'This field is invalid',
 })
