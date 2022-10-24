@@ -129,18 +129,11 @@
             >
           </h1>
           <p class="font-roboto text-base lg:text-lg leading-7 hidden lg:block">
-            Find out how the Nigerian banking sector has remained resilient
-            amidst <br class="lg:hidden xl:block" />
-            constraints from the pandemic, weak domestic macroeconomic<br
+            Discover how the Nigerian banking sector has fared in an economy <br class="lg:hidden xl:block" />
+            yet to fully shrug off the aftermath of the pandemic, and how to brace <br
               class="lg:hidden xl:block"
             />
-            conditions, and stringent regulations.
-          </p>
-          <p class="font-roboto text-base xl:text-lg leading-7 lg:hidden">
-            Although it was only 365 days (give or take a few hours), the past
-            year was momentous in many ways. A new office, a fleet of new faces,
-            and more than a few late nights building a product to be proud
-            of—2015 was a year to remember.
+            for the impact of daunting fiscal, monetary, and social conditions.
           </p>
         </div>
         <div class="space-y-4 xl:space-y-0 py-2">
