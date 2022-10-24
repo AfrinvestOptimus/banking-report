@@ -54,7 +54,7 @@
           SECTOR
           <br class="hidden lg:block" />
           PERFORMANCE IN <br class="lg:hidden" />
-          2020 AND H1:2021
+          2022 AND H1:2023
         </h1>
         <div class="lg:w-3/5 mx-auto space-y-8 mb-8">
           <p class="summary-text">
