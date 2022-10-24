@@ -37,28 +37,20 @@
       >
         Report <span class="text-secondary">Highlights</span>
       </h1>
-      <ul class="py-8 space-y-5 hidden lg:block">
+      <ul class="py-8 space-y-5">
         <CheckList>Global Macroeconomic Review & Outlook</CheckList>
         <CheckList>Trends in the Global Banking Industry</CheckList>
         <CheckList>Domestic Macroeconomic Review</CheckList>
-        <CheckList>Fiscal Policy: 2021/22 Budget Review & Analysis</CheckList>
-        <CheckList>Prominent Legislation & Socio-economic Update</CheckList>
-        <CheckList>Monetary Policy Review & Outlook</CheckList>
-        <CheckList>Financial Sector Regulation</CheckList>
-        <CheckList>Banking Sector Performance In 2020 and H1:2021</CheckList>
-        <CheckList>Crystal ball: Key outlook for FY:2021</CheckList>
+        <CheckList>Socio-economic Development… Brace for Impact!</CheckList>
+        <CheckList>Monetary Policy Review</CheckList>
+        <CheckList>Monetary Policy Prognosis for H2:2022 & FY 2023</CheckList>
+        <CheckList>Banking Sector Performance in 2021 and H1:2022</CheckList>
+        <CheckList>Deep Dive into Merchant & Non-Interest Banking in Nigeria</CheckList>
+        <CheckList>Key Risk Areas for Banks in 2022/23</CheckList>
+        <CheckList>Crystal Ball: Key Outlook for 2022/23</CheckList>
+        <CheckList>Banking Industry in the next Dispensation… Brace for Impact!</CheckList>
       </ul>
-      <ul class="py-8 space-y-5 lg:hidden">
-        <CheckList>Global Macroeconomic Review & Outlook</CheckList>
-        <CheckList>Trends in the Global Banking Industry</CheckList>
-        <CheckList>Domestic Macroeconomic Review</CheckList>
-        <CheckList>Fiscal Policy: 2021/22 Budget Review & Analysis</CheckList>
-        <CheckList>Prominent Legislation & Socio-economic Update</CheckList>
-        <CheckList>Monetary Policy Review & Outlook</CheckList>
-        <CheckList>Financial Sector Regulation</CheckList>
-        <CheckList>Banking Sector Performance In 2020 and H1:2021</CheckList>
-        <CheckList>Crystal ball: Key outlook for FY:2021</CheckList>
-      </ul>
+
       <div class="mt-4">
         <ActionButton
           class="action-button w-full lg:w-auto justify-center"

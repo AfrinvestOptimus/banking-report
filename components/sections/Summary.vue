@@ -58,34 +58,16 @@
         </h1>
         <div class="lg:w-3/5 mx-auto space-y-8 mb-8">
           <p class="summary-text">
-            More than a year ago since Nigeria recorded her first confirmed case
-            of COVID-19, the country has endured the economic hardship and
-            disruption of livelihood that followed. While the world had little
-            hope in the resilience of the dark continent, Nigeria managed to
-            keep her head above the COVID-19 waters in the face of the first and
-            second waves of the virus.
+            Since the publication of our 2021 Nigerian Banking Sector report – “Resilience Amidst Endemic and Pandemic Constraints”, the bullish projections for the global economy in 2022 have been undermined by deteriorating fundamentals. The increasingly gloomy projections have been the upshot of mounting downside risks, further inhibiting a world economy yet to fully shrug off the impact of the pandemic. Against this backdrop, the IMF noted that the World's real GDP contracted by 2.6% in Q2:2022. Furthermore, the Bretton woods institution downgraded its global growth projections for the third consecutive time in 2022. Meanwhile, on the domestic front, real GDP expanded further by 3.3% in H1:2022 (from 3.5% in FY:2021), the firmest H1 growth since 6.4% in 2014. The sustained expansion came on the back of a sturdy 5.4% expansion in the non-oil sector, while the oil sector continued to languish in contraction (since Q2:2020). Nonetheless, our FY:2022 growth projection remains modest at 3.3%, compared to FG’s projection of 4.2% due to persistent domestic and external headwinds.
+
           </p>
           <p class="summary-text">
-            Amidst the tough macro and tight regulatory environment, banks
-            remained resilient. This is evident in banks delivering a 15.6% and
-            6.8% y/y growth in total assets and profit respectively in H1:2021
-            despite elevated CRR debits and compulsory LDR levels. With the
-            pandemic, the Nigerian Banking sector vulnerability heightened which
-            required swift policy responses from the CBN. Consequently, the CBN
-            rolled out stimulus packages to critical sectors with significant
-            loan exposure, reduced interest rate on intervention facilities
-            (from 9.0% to 5.0%) and granted banks the forbearance to restructure
-            loan exposure. As a result, real GDP growth in the financial
-            institutions sector grew by 13.3% y/y in 2020.
+            In the domestic banking space, the positive performance of the economy in 2021 rubbed off on the banking sector’s earnings and profitability. Aggregate gross earnings for the banks within Afrinvest's coverage grew 12.7% in 2021 to ₦5.6tn. Also, PBT and PAT increased by 25.6% and 22.0% compared to 0.3% and 4.2% in 2020 respectively. Yet, the persistent rise in consumer prices over the last decade to 2021-year end (up 191.7%) and the devaluation of the Naira by around 62.2% have eroded the gains that banks have made in real terms. Based on our analysis of changes in the aggregate gross earnings, PBT, and PAT of our coverage banks between 2012 and 2021, we found a nominal increase of ₦3.5tn, ₦883.9bn, and ₦720.3bn respectively. Upon adjusting 2021 numbers to reflect changes in core inflation over the 10-year period, the real difference in these key line items shows a decline of ₦250.9bn, ₦33.4bn, and ₦54.0bn accordingly, compared to 2012. We also found that banks have not been spared from the impact of domestic currency weakness.
+
           </p>
-          <p>
-            Broadly speaking, it is safe to conclude that the Nigerian banking
-            sector remained resilient in the face of COVID-19 and several
-            regulatory headwinds. Nevertheless, banks' earnings and asset
-            quality have taken a beating while being under pressure from
-            competition. Also, the pandemic has provided learning points for
-            players in the sector to reshape and reimagine their
-            product/services offerings for long-term growth and sustainability.
+          <p class='summary-text'>
+            Looking ahead, Nigeria is set for another cycle of leadership in 2023 as the tenure of President Muhammadu Buhari, 30 state governors, and over 1,000 legislatures draw to a close. At a time when there is daunting fiscal, monetary, and social challenges to surmount, Nigerians cannot afford to elect leaders who lack the competence, capacity, and creativity to find lasting solutions to the current national quagmire. Even with a leadership that is willing to introduce the needed reforms, our assessment of the economy’s health metrics suggests that the present challenging environment would worsen before it can get better. Hence, Nigerians would need to brace for impact regardless of the outcome of the polls. Noteworthy, the political will of the incoming administration to implement tough reforms that would curtail major economic leakages and ensure the proper channeling of scarce resources to critical sectors would be a refreshing start.
+
           </p>
           <div
             class="

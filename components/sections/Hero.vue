@@ -127,28 +127,25 @@
             "
           >
             <span class="hidden lg:block"
-              >2021 NIGERIAN<br />BANKING SECTOR<br /><span
+              >2022 NIGERIAN<br />BANKING SECTOR<br /><span
                 class="text-secondary"
                 >REPORT</span
               ></span
             >
             <span class="lg:hidden"
-              >2021 NIGERIAN BANKING SECTOR
+              >2022 NIGERIAN BANKING SECTOR
               <span class="text-secondary">REPORT</span></span
             >
           </h1>
           <p class="font-roboto text-base lg:text-lg leading-7 hidden lg:block">
-            Find out how the Nigerian banking sector has remained resilient
-            amidst <br class="lg:hidden xl:block" />
-            constraints from the pandemic, weak domestic macroeconomic<br
-              class="lg:hidden xl:block"
-            />
-            conditions, and stringent regulations.
+            Discover how the Nigerian banking sector has fared in an economy <br class="lg:hidden xl:block" />
+            yet to fully shrug off the aftermath of the pandemic, and how to brace <br
+            class="lg:hidden xl:block"
+          />
+            for the impact of daunting fiscal, monetary, and social conditions.
           </p>
           <p class="font-roboto text-base xl:text-lg leading-7 lg:hidden">
-            Find out how the Nigerian banking sector has remained resilient
-            amidst constraints from the pandemic, weak domestic macroeconomic
-            conditions, and stringent regulations.
+            Discover how the Nigerian banking sector has fared in an economy yet to fully shrug off the aftermath of the pandemic, and how to brace for the impact of daunting fiscal, monetary, and social conditions.
           </p>
         </div>
         <div class="space-y-4 xl:space-y-0 py-2">
