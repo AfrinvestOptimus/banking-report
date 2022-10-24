@@ -4,7 +4,7 @@ export default {
   //mode: 'spa',
   target: 'static',
   head: {
-    title: 'Afrinvest 2021 Banking Report',
+    title: 'Afrinvest 2022 Banking Report',
     htmlAttrs: {
       lang: 'en',
     },
@@ -21,7 +21,7 @@ export default {
       {
         hid: 'keywords',
         name: 'keywords',
-        content: 'banking report 2021, 2021 banking report',
+        content: 'banking report 2022, 2022 banking report',
       },
     ],
     link: [
