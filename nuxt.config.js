@@ -32,9 +32,9 @@ export default {
       },
     ],
   },
-  router: {
+  /*router: {
     base: '/banking-report/',
-  },
+  },*/
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ['@/assets/css/tailwind.css'],
