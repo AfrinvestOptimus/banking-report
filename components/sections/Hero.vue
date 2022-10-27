@@ -95,7 +95,7 @@
         />
         <transition appear name="scale">
           <img
-            src="@/assets/images/BSR-2021-Report-sm.jpg"
+            src="@/assets/images/bsr-sm.jpg"
             class="
               w-auto
               h-[220px]

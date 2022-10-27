@@ -18,7 +18,7 @@
       v-observe-visibility="visibilityChanged"
     >
       <img
-        src="@/assets/images/BSR-2021-Report-lg.jpg"
+        src="@/assets/images/bsr-lg.jpg"
         alt="2021 Nigerian Banking Sector Report"
         class="w-[474px] h-auto drop-shadow drop-shadow-xl shadow shadow-2xl"
         :class="{ scale: scale }"
