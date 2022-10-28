@@ -35,7 +35,7 @@
               bg-clip-text
               text-transparent
             "
-            >2021</span
+            >2022</span
           >
         </h2>
       </div>
@@ -46,10 +46,11 @@
         <div
           @click="modalShow"
           class="
+            bg-grey-600 lg:bg-transparent
             border border-grey-500
             mb-8
             rounded-[3px]
-            py-6
+            py-3 lg:py-6
             px-5
             flex
             items-center
@@ -58,7 +59,7 @@
           "
         >
           <span
-            class="font-inter font-medium text-grey-600 text-lg"
+            class="font-inter font-medium text-grey-50 lg:text-grey-600 text-lg"
             v-if="!format"
             >Select preferred format</span
           >
