@@ -53,7 +53,7 @@
 
       <div class="mt-4">
         <ActionButton
-          class="action-button w-full lg:w-auto justify-center"
+          class="action-button w-full lg:w-auto justify-center px-6"
           v-scroll-to="'#summary'"
         >
           <template v-slot:icon><SummaryIcon /></template>

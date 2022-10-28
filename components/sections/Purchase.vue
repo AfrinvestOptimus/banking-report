@@ -63,7 +63,7 @@
             v-if="!format"
             >Select preferred format</span
           >
-          <span class="font-inter font-medium text-grey-600 text-lg" v-else
+          <span class="font-inter font-medium text-grey-50 lg:text-grey-600 text-lg" v-else
             >{{ format.title }} - {{ format.price }}</span
           >
           <Cheveron />

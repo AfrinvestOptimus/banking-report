@@ -12,12 +12,13 @@
       font-inter
     "
   >
-    <Logo width="109" height="44" color="#fff" />
+    <NewLogo width="109" height="44"/>
+<!--    <Logo  color="#fff" />-->
     <div>
       <ShareNetwork
         network="linkedIn"
-        title="Afrinvest 2021 Banking Sector Report"
-        url="https://afrinvest.com"
+        title="Afrinvest 2022 Banking Sector Report"
+        url="https://bsr.afrinvest.com"
         class="
           text-sm
           font-medium
@@ -38,9 +39,10 @@
 <script>
 import Logo from 'assets/svg/Logo'
 import ShareIcon from 'assets/svg/ShareIcon'
+import NewLogo from "assets/svg/NewLogo";
 export default {
   name: 'HeaderBar',
-  components: { ShareIcon, Logo },
+  components: {NewLogo, ShareIcon, Logo },
 }
 </script>
 

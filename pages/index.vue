@@ -38,14 +38,14 @@ const formatTypes = [
     id: 1,
     title: 'HARD COPY ONLY',
     subTitle: 'High color and graphics printed format of the report',
-    price: 'N40,000',
+    price: 'N100,000',
     selected: false,
   },
   {
     id: 2,
     title: 'eCOPY ONLY',
     subTitle: 'Electronic copy of the report in PDF (Not editable)',
-    price: 'N160,000',
+    price: 'N600,000',
     selected: false,
   },
   {
@@ -53,7 +53,7 @@ const formatTypes = [
     title: 'HARD COPY + eCOPY',
     subTitle:
       'High color and graphic printed format of the report with an electronic copy in PDF (Not editable)',
-    price: 'N170,000',
+    price: 'N650,000',
     selected: false,
   },
   {
@@ -61,7 +61,7 @@ const formatTypes = [
     title: 'eCOPY INCLUDING TABLES',
     subTitle:
       'Electronic copy of the report with access to all tables and charts in an editable format.',
-    price: 'N450,000',
+    price: 'N1,000,000',
     selected: false,
   },
 ]

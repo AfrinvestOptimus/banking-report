@@ -148,13 +148,10 @@
             Discover how the Nigerian banking sector has fared in an economy yet to fully shrug off the aftermath of the pandemic, and how to brace for the impact of daunting fiscal, monetary, and social conditions.
           </p>
         </div>
-        <div class="space-y-4 xl:space-y-0 py-2">
-          <ActionButton
-            class="action-button justify-center"
-            v-scroll-to="'#paymentPane'"
-          >
+        <div class="lg:flex lg:space-x-4  space-y-4 xl:space-y-0 py-2">
+          <ActionButton href="/BSR2022_Summary.pdf" class="action-button justify-center px-5">
             <template v-slot:icon>
-              <HardIcon color="#111827" width="20" height="26" />
+              <HardIcon alt-color="#111827" color="#FFF"  width="20" height="26" />
             </template>
             <template v-slot:text>
               <span
@@ -164,10 +161,32 @@
                   font-inter
                   text-sm
                   lg:text-base
-                  tracking-[3px]
+                  tracking-[2.5px]
                   font-semibold
                 "
-                >GET THE FULL REPORT</span
+              >DOWNLOAD EXECUTIVE SUMMARY</span
+              >
+            </template>
+          </ActionButton>
+          <ActionButton
+            class="action-button-dark justify-center"
+            v-scroll-to="'#paymentPane'"
+          >
+            <template v-slot:icon>
+              <HardIcon alt-color="#FFF" color="#111827" width="20" height="26" />
+            </template>
+            <template v-slot:text>
+              <span
+                class="
+                  text-left text-white
+                  leading-normal
+                  font-inter
+                  text-sm
+                  lg:text-base
+                  tracking-[2.5px]
+                  font-semibold
+                "
+                >BUY THE FULL REPORT</span
               >
             </template>
           </ActionButton>

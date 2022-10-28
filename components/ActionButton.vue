@@ -1,7 +1,11 @@
 <template>
-  <button>
-    <slot name="icon"></slot>
-    <slot name="text"></slot>
+  <a :href="href" v-if="href">
+    <slot name="icon" />
+    <slot name="text" />
+  </a>
+  <button v-else>
+    <slot name="icon" />
+    <slot name="text" />
   </button>
 </template>
 <script>
@@ -10,6 +14,6 @@ import HardIcon from 'assets/svg/HardIcon'
 export default {
   name: 'ActionButton',
   components: { HardIcon },
-  props: ['Icon'],
+  props: ['Icon', 'href'],
 }
 </script>
