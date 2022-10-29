@@ -1,5 +1,5 @@
 <template>
-  <a :href="href" v-if="href">
+  <a :href="href" v-if="href" target="_blank">
     <slot name="icon" />
     <slot name="text" />
   </a>
