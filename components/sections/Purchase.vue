@@ -35,7 +35,7 @@
               bg-clip-text
               text-transparent
             "
-            >2022</span
+            >2023</span
           >
         </h2>
       </div>

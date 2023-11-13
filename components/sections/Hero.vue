@@ -127,25 +127,26 @@
             "
           >
             <span class="hidden lg:block"
-              >2022 NIGERIAN<br />BANKING SECTOR<br /><span
+              >2023 NIGERIAN<br />BANKING SECTOR<br /><span
                 class="text-secondary"
                 >REPORT</span
               ></span
             >
             <span class="lg:hidden"
-              >2022 NIGERIAN BANKING SECTOR
+              >2023 NIGERIAN BANKING SECTOR
               <span class="text-secondary">REPORT</span></span
             >
           </h1>
           <p class="font-roboto text-base lg:text-lg leading-7 hidden lg:block">
-            Discover how the Nigerian banking sector has fared in an economy <br class="lg:hidden xl:block" />
+            Discover the impact of global economic risks and challenges on the <br class="lg:hidden xl:block" />Nigerian banking sector, the geopolitical and economic trends that are<br class="lg:hidden xl:block" /> shaping the global financial landscape, and the ongoing challenges that <br class="lg:hidden xl:block" />Nigeria faces in establishing a viable economic model to fully harness its potential.
+<!--            Discover how the Nigerian banking sector has fared in an economy <br class="lg:hidden xl:block" />
             yet to fully shrug off the aftermath of the pandemic, and how to brace <br
             class="lg:hidden xl:block"
           />
-            for the impact of daunting fiscal, monetary, and social conditions.
+            for the impact of daunting fiscal, monetary, and social conditions.-->
           </p>
           <p class="font-roboto text-base xl:text-lg leading-7 lg:hidden">
-            Discover how the Nigerian banking sector has fared in an economy yet to fully shrug off the aftermath of the pandemic, and how to brace for the impact of daunting fiscal, monetary, and social conditions.
+            Discover the impact of global economic risks and challenges on the Nigerian banking sector, the geopolitical and economic trends that are shaping the global financial landscape, and the ongoing challenges that Nigeria faces in establishing a viable economic model to fully harness its potential.
           </p>
         </div>
         <div class="lg:flex lg:space-x-4  space-y-4 xl:space-y-0 py-2">

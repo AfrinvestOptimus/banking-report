@@ -38,17 +38,15 @@
         Report <span class="text-secondary">Highlights</span>
       </h1>
       <ul class="py-8 space-y-5">
-        <CheckList>Global Macroeconomic Review & Outlook</CheckList>
-        <CheckList>Trends in the Global Banking Industry</CheckList>
-        <CheckList>Domestic Macroeconomic Review</CheckList>
-        <CheckList>Socio-economic Development… Brace for Impact!</CheckList>
-        <CheckList>Monetary Policy Review</CheckList>
-        <CheckList>Monetary Policy Prognosis for H2:2022 & FY 2023</CheckList>
-        <CheckList>Banking Sector Performance in 2021 and H1:2022</CheckList>
-        <CheckList>Deep Dive into Merchant & Non-Interest Banking in Nigeria</CheckList>
-        <CheckList>Key Risk Areas for Banks in 2022/23</CheckList>
-        <CheckList>Crystal Ball: Key Outlook for 2022/23</CheckList>
-        <CheckList>Banking Industry in the next Dispensation… Brace for Impact!</CheckList>
+        <CheckList>Global Monetary Policy Review & Outlook</CheckList>
+        <CheckList>Global Banking Sector Performance Review & Outlook</CheckList>
+        <CheckList>Domestic Macroeconomic Review & Outlook</CheckList>
+        <CheckList>Monetary Policy Review & Outlook</CheckList>
+        <CheckList>Financial Sector Regulatory Environment Review & Outlook</CheckList>
+        <CheckList>Getting Nigeria to Work Again… It Is Time</CheckList>
+        <CheckList>A Path to Transformative Rebirth… Theoretical Framework</CheckList>
+        <CheckList>Understanding Old Problems in New Light… The NIE Perspective</CheckList>
+        <CheckList>Repairing The Foundation… Our View</CheckList>
       </ul>
 
       <div class="mt-4">
