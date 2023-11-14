@@ -160,7 +160,7 @@ export default {
           }
 
           this.$paystack({
-            key: 'pk_live_58b42787f03357268710131b9bf461476b8fecff', // Replace with your public key.
+            key: 'pk_live_9e7d687fae0250d564f50b04dec1f5ac060f8b6f', // Replace with your public key.
             email: this.email,
             amount: Number(this.price) * 100,
             currency: 'NGN',

@@ -4,7 +4,7 @@ export default {
   //mode: 'spa',
   target: 'static',
   router: {
-    base: '/banking-report/',
+    base: '/'
   },
   head: {
     title: 'Afrinvest 2023 Banking Report',
