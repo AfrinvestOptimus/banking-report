@@ -95,14 +95,12 @@
         />
         <transition appear name="scale">
           <img
-            src="@/assets/images/bsr-sm.jpg"
+            src="@/assets/images/bsr23-sm.png"
             class="
               w-auto
               h-[220px]
               lg:h-[50vh]
               relative
-              drop-shadow drop-shadow-xl
-              shadow shadow-2xl
             "
             alt="2021 Nigerian Banking Sector Report"
           />
