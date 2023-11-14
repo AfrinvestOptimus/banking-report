@@ -28,7 +28,7 @@ export default {
       },
     ],
     link: [
-      { rel: 'icon', type: 'image/jpg', href: '/favicon.jpg' },
+      { rel: 'icon', type: 'image/jpg', href: '/favicon.png' },
       {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/icon?family=Material+Icons',
