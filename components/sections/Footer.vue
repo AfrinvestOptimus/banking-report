@@ -21,7 +21,7 @@
         >
       </p>
       <p class="text-center text-grey-500 font-inter text-xs font-medium">
-        &copy; 2022 Afrinvest. RC 1622382. All Rights Reserved.
+        &copy; 2023 Afrinvest. RC 1622382. All Rights Reserved.
       </p>
     </div>
   </div>

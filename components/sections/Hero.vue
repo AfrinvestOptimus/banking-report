@@ -150,7 +150,7 @@
           </p>
         </div>
         <div class="lg:flex lg:space-x-4  space-y-4 xl:space-y-0 py-2">
-          <ActionButton href="/BSR2022_Summary.pdf" class="action-button justify-center px-5">
+          <ActionButton href="/BSR2023_Summary.pdf" class="action-button justify-center px-5">
             <template v-slot:icon>
               <HardIcon alt-color="#111827" color="#FFF"  width="20" height="26" />
             </template>
