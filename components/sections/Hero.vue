@@ -1,28 +1,11 @@
 <template>
   <section
-    class="
-      bg-gradient-to-b
-      to-[#E9F8FB]
-      from-[#F5FBFC]
-      lg:h-[calc(100vh-70px)]
-      relative
-      overflow-x-hidden
-      xl:overflow-hidden
-    "
+    class="bg-gradient-to-b to-[#E9F8FB] from-[#F5FBFC] lg:h-[calc(100vh-70px)] relative overflow-x-hidden xl:overflow-hidden"
   >
     <img
       src="~/assets/images/bg-down.png"
       alt="downbg"
-      class="
-        absolute
-        h-1/2
-        object-cover object-left
-        w-auto
-        xl:h-auto xl:w-full
-        bottom-0
-        opacity-50
-        xl:opacity-40
-      "
+      class="absolute h-1/2 object-cover object-left w-auto xl:h-auto xl:w-full bottom-0 opacity-50 xl:opacity-40"
     />
     <img
       src="@/assets/images/ellipse.png"
@@ -36,19 +19,7 @@
     />
 
     <div
-      class="
-        lg:max-w-[960px]
-        xl:max-w-[1200px]
-        mx-auto
-        lg:flex lg:justify-between
-        pt-11
-        lg:pt-40
-        pb-20
-        items-center
-        relative
-        px-6
-        xl:px-0
-      "
+      class="lg:max-w-[960px] xl:max-w-[1200px] mx-auto lg:flex lg:justify-between pt-11 lg:pt-40 pb-20 items-center relative px-6 xl:px-0"
     >
       <img
         src="../../assets/images/decor4.png"
@@ -58,51 +29,23 @@
       <img
         src="@/assets/images/decor2.png"
         alt="bg"
-        class="
-          absolute
-          scale-50
-          xl:scale-90 xl:-right-32
-          right-0
-          -top-14
-          xl:top-10
-        "
+        class="absolute scale-50 xl:scale-90 xl:-right-32 right-0 -top-14 xl:top-10"
       />
 
       <!--   Hero Book Image   -->
       <div
-        class="
-          relative
-          flex
-          justify-center
-          xl:block
-          mb-10
-          xl:mb-0
-          lg:flex-1
-          xl:flex-none
-        "
+        class="relative flex justify-center xl:block mb-10 xl:mb-0 lg:flex-1 xl:flex-none"
       >
         <img
           src="@/assets/images/decor3.png"
           alt="bg"
-          class="
-            absolute
-            scale-50
-            xl:scale-100
-            -top-10
-            left-10
-            xl:left-[calc(50%-20px)] xl:-top-32
-          "
+          class="absolute scale-50 xl:scale-100 -top-10 left-10 xl:left-[calc(50%-20px)] xl:-top-32"
         />
         <transition appear name="scale">
           <img
             src="@/assets/images/bsr23-sm.png"
-            class="
-              w-auto
-              h-[220px]
-              lg:h-[50vh]
-              relative
-            "
-            alt="2021 Nigerian Banking Sector Report"
+            class="w-auto h-[220px] lg:h-[50vh] relative"
+            alt="2023 Nigerian Banking Sector Report"
           />
         </transition>
       </div>
@@ -111,18 +54,7 @@
       <div class="relative lg:order-first lg:flex-1 xl:flex-none">
         <div class="pb-9">
           <h1
-            class="
-              text-primary
-              font-inter font-bold
-              text-4xl
-              leading-[114%]
-              lg:text-5xl
-              xl:text-[56px]
-              lg:leading-[55px]
-              xl:leading-[64px]
-              pb-2
-              xl:pb-5
-            "
+            class="text-primary font-inter font-bold text-4xl leading-[114%] lg:text-5xl xl:text-[56px] lg:leading-[55px] xl:leading-[64px] pb-2 xl:pb-5"
           >
             <span class="hidden lg:block"
               >2023 NIGERIAN<br />BANKING SECTOR<br /><span
@@ -136,34 +68,45 @@
             >
           </h1>
           <p class="font-roboto text-base lg:text-lg leading-7 hidden lg:block">
-            Discover the impact of global economic risks and challenges on the <br class="lg:hidden xl:block" />Nigerian banking sector, the geopolitical and economic trends that are<br class="lg:hidden xl:block" /> shaping the global financial landscape, and the ongoing challenges that <br class="lg:hidden xl:block" />Nigeria faces in establishing a viable economic model to fully harness its potential.
-<!--            Discover how the Nigerian banking sector has fared in an economy <br class="lg:hidden xl:block" />
+            Discover the impact of global economic risks and challenges on the
+            <br class="lg:hidden xl:block" />Nigerian banking sector, the
+            geopolitical and economic trends that are<br
+              class="lg:hidden xl:block"
+            />
+            shaping the global financial landscape, and the ongoing challenges
+            that <br class="lg:hidden xl:block" />Nigeria faces in establishing
+            a viable economic model to fully harness its potential.
+            <!--            Discover how the Nigerian banking sector has fared in an economy <br class="lg:hidden xl:block" />
             yet to fully shrug off the aftermath of the pandemic, and how to brace <br
             class="lg:hidden xl:block"
           />
             for the impact of daunting fiscal, monetary, and social conditions.-->
           </p>
           <p class="font-roboto text-base xl:text-lg leading-7 lg:hidden">
-            Discover the impact of global economic risks and challenges on the Nigerian banking sector, the geopolitical and economic trends that are shaping the global financial landscape, and the ongoing challenges that Nigeria faces in establishing a viable economic model to fully harness its potential.
+            Discover the impact of global economic risks and challenges on the
+            Nigerian banking sector, the geopolitical and economic trends that
+            are shaping the global financial landscape, and the ongoing
+            challenges that Nigeria faces in establishing a viable economic
+            model to fully harness its potential.
           </p>
         </div>
-        <div class="lg:flex lg:space-x-4  space-y-4 xl:space-y-0 py-2">
-          <ActionButton href="/BSR2023_Summary.pdf" class="action-button justify-center px-5">
+        <div class="lg:flex lg:space-x-4 space-y-4 xl:space-y-0 py-2">
+          <ActionButton
+            href="/BSR2023_SummaryNew.pdf"
+            class="action-button justify-center px-5"
+          >
             <template v-slot:icon>
-              <HardIcon alt-color="#111827" color="#FFF"  width="20" height="26" />
+              <HardIcon
+                alt-color="#111827"
+                color="#FFF"
+                width="20"
+                height="26"
+              />
             </template>
             <template v-slot:text>
               <span
-                class="
-                  text-left text-grey-900
-                  leading-normal
-                  font-inter
-                  text-sm
-                  lg:text-base
-                  tracking-[2.5px]
-                  font-semibold
-                "
-              >DOWNLOAD EXECUTIVE SUMMARY</span
+                class="text-left text-grey-900 leading-normal font-inter text-sm lg:text-base tracking-[2.5px] font-semibold"
+                >DOWNLOAD EXECUTIVE SUMMARY</span
               >
             </template>
           </ActionButton>
@@ -172,34 +115,23 @@
             v-scroll-to="'#paymentPane'"
           >
             <template v-slot:icon>
-              <HardIcon alt-color="#FFF" color="#111827" width="20" height="26" />
+              <HardIcon
+                alt-color="#FFF"
+                color="#111827"
+                width="20"
+                height="26"
+              />
             </template>
             <template v-slot:text>
               <span
-                class="
-                  text-left text-white
-                  leading-normal
-                  font-inter
-                  text-sm
-                  lg:text-base
-                  tracking-[2.5px]
-                  font-semibold
-                "
+                class="text-left text-white leading-normal font-inter text-sm lg:text-base tracking-[2.5px] font-semibold"
                 >BUY THE FULL REPORT</span
               >
             </template>
           </ActionButton>
         </div>
         <button
-          class="
-            flex
-            justify-start
-            space-x-1
-            items-center
-            mt-4
-            cursor-pointer
-            font-medium
-          "
+          class="flex justify-start space-x-1 items-center mt-4 cursor-pointer font-medium"
           @click="onRef"
         >
           <info-icon />
