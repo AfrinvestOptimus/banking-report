@@ -20,7 +20,9 @@
         Report <span class="text-secondary">Highlights</span>
       </h1>
       <ul class="py-8 space-y-5">
-        <CheckList>Global Monetary Policy Review & Outlook</CheckList>
+        <CheckList
+          >Global Economic and Monetary Policy Review & Outlook</CheckList
+        >
         <CheckList
           >Global Banking Sector Performance Review & Outlook</CheckList
         >
@@ -29,15 +31,26 @@
         <CheckList
           >Financial Sector Regulatory Environment Review & Outlook</CheckList
         >
-        <CheckList>Getting Nigeria to Work Again… It Is Time</CheckList>
         <CheckList
-          >A Path to Transformative Rebirth… Theoretical Framework</CheckList
+          >Recapitalisation… Catalyst for a One-trillion Dollar
+          Economy?</CheckList
         >
         <CheckList
-          >Understanding Old Problems in New Light… The NIE
-          Perspective</CheckList
+          >Let’s Go Down Memory Lane… The Need for 2004/2005 and 2010 Banking
+          Recapitalisation</CheckList
         >
-        <CheckList>Repairing The Foundation… Our View</CheckList>
+        <CheckList
+          >How Banks Have Fared vs Capital Benchmark… The Birth of a Fresh
+          Banking Recapitalisation Exercise</CheckList
+        >
+        <CheckList
+          >Banking Recapitalisation as a Driver of the $1.0tn Economy Ambition…
+          Lessons from Indonesia</CheckList
+        >
+        <CheckList
+          >Banking in Post-Recapitalisation Period… A Potent Arsenal for Driving
+          Infrastructural Development?</CheckList
+        >
       </ul>
 
       <div class="mt-4">

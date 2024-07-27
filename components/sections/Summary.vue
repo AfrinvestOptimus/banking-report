@@ -24,10 +24,40 @@
         </h1>
         <div class="lg:w-3/5 mx-auto space-y-8 mb-8">
           <p class="summary-text">
-            More than six decades after gaining independence, Nigeria faces ongoing challenges in establishing a viable economic model to fully harness its potential. The initial crude oil boom of the 1970s and ‘80s which gave Nigeria a head start compared to non-oil-producing peers, lacked the necessary institutional mechanisms, governance checks and balances, and policy framework to drive sustained and inclusive growth. Quite the opposite happened as Nigeria’s per capita GDP has since dropped far below levels attained in 1981. Countries such as Benin, India, and Kenya with similar per capita GDP sizes in 1960 have steadily grown same by 298.0%, 780.0%, and 414.0%, respectively according to World Bank data. Not surprisingly, broader measures of well-being such as the Human Development Index (HDI), Corruption Perception Index (CPI), and Good Governance Index (GGI) followed suit, falling behind most peers.
+            The Nigerian banking sector has witnessed several recapitalisation
+            episodes in a bid to shore up minimum capital required to compete
+            locally and globally. The 2004/2005 banking recapitalisation
+            exercise was a remarkable episode which cleansed the sector and was
+            awash with consolidation and takeovers that reduced operational
+            banks from 89 to 25. While the cleansing addressed the corporate
+            governance deficiencies and brought the necessary financial
+            stability, technological innovations, international competitiveness
+            and reputation, it had its flaws. The exercise pumped in excess
+            capital, most of which created unhealthy loans and persistently
+            increasing non-performing loans and birthed more risk management
+            issues. These laybacks resulted in the repeal of universal banking
+            model, establishment of AMCON, and the revised capital requirement
+            in 2010.
           </p>
           <p class="summary-text">
-            As the new administration embarks on bold reforms to reset the economy, it is critical to ensure that policies target underlying causes rather than symptoms. It is instructive to highlight that the ongoing reforms are not the first for Nigeria given the history of the Structural Adjustment Program (SAP) of the 1980s and 1990s, National Economic Empowerment and Development Strategy (NEEDS) of 2004, Vision 20:2020 of 2009, Economic Recovery and Growth Plan (ERGP) of 2017, amongst others – all of which have largely been unsuccessful in driving lasting change. Therefore, failure to unmask the root challenges plaguing the country would be akin to “pouring new wine into old wineskin”. The consequence would be policy fatigue and the perpetuation of a vicious cycle of ambitious development plans and underwhelming outcomes. On this basis, we lean on the New Institutional Economics (NIE) school of thought to gauge what real structural reform should look like for the Nigerian economy.
+            Recently, in its March 2024 capital requirement guideline, the CBN
+            announced a new capital structure for banks under different licenses
+            with the aim of strengthening the financial system and aiding the
+            government’s $1.0tn economy by 2032. Away from the agenda, this
+            became pertinent following the clear erosion of banks’ capital
+            buffer post- 2010 from a real and FX perspective compared to 2010
+            levels. Using 2023 average, the existing minimum capital size has
+            lost 77.1% and 76.5% in FX and real terms, respectively. To shore up
+            the capital gap, the CBN considered the impact of macro-economic
+            headwinds on banks’ risk profile and financial position in defining
+            the new threshold. While these criteria appear robust, the new
+            capital threshold may not stand the test of time should there be
+            unprecedented macroeconomic shocks. To bring this to perspective, a
+            revision of the new capital to projected FX-base (average of
+            ₦1,200/$) signals a 16.7% erosion in capital level. This begs the
+            question of its adequacy considering the need for banks to remain
+            internationally competitive and own a robust balance sheet to
+            efficiently play the intermediation role in the $1.0tn game plan.
           </p>
           <div
             class="flex space-x-3 cursor-pointer hover:transform hover:translate-x-2 transition duration-500 ease-in-out"

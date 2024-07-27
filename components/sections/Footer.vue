@@ -21,7 +21,7 @@
         >
       </p>
       <p class="text-center text-grey-500 font-inter text-xs font-medium">
-        &copy; 2023 Afrinvest. RC 1622382. All Rights Reserved.
+        &copy; {{ getYear() }} Afrinvest. RC 1622382. All Rights Reserved.
       </p>
     </div>
   </div>
@@ -33,6 +33,9 @@ import NewLogoDark from 'assets/svg/NewLogoDark'
 export default {
   name: 'Footer',
   components: { NewLogoDark, LogoWhite },
+  methods: {
+    getYear: () => new Date().getFullYear(),
+  },
 }
 </script>
 
