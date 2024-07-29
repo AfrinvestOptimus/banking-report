@@ -1,41 +1,17 @@
 <template>
   <div class="bg-[#DFF6FA]" id="paymentPane">
     <section
-      class="
-        lg:max-w-[920px]
-        xl:max-w-[1148px]
-        mx-auto
-        lg:flex
-        justify-between
-        items-center
-        xl:space-x-10
-        px-6
-        py-11
-        lg:py-0 lg:px-0
-      "
+      class="lg:max-w-[920px] xl:max-w-[1148px] mx-auto lg:flex justify-between items-center xl:space-x-10 px-6 py-11 lg:py-0 lg:px-0"
     >
       <div class="lg:hidden mb-9">
         <h2
-          class="
-            font-inter
-            text-grey-900 text-5xl
-            font-bold
-            leading-[111.5%]
-            uppercase
-          "
+          class="font-inter text-grey-900 text-5xl font-bold leading-[111.5%] uppercase"
         >
           GET YOUR<br class="lg:hidden" />BANKING<br
             class="lg:hidden"
           />SECTOR<br class="lg:hidden" />REPORT<br class="lg:hidden" /><span
-            class="
-              font-oswald
-              bg-gradient-to-l
-              from-[#FF5F00]
-              to-[#5BDAA5]
-              bg-clip-text
-              text-transparent
-            "
-            >2023</span
+            class="font-oswald bg-gradient-to-l from-[#FF5F00] to-[#5BDAA5] bg-clip-text text-transparent"
+            >2024</span
           >
         </h2>
       </div>
@@ -45,25 +21,16 @@
       <div class="flex-1">
         <div
           @click="modalShow"
-          class="
-            bg-grey-600 lg:bg-transparent
-            border border-grey-500
-            mb-8
-            rounded-[3px]
-            py-3 lg:py-6
-            px-5
-            flex
-            items-center
-            justify-between
-            cursor-pointer
-          "
+          class="bg-grey-600 lg:bg-transparent border border-grey-500 mb-8 rounded-[3px] py-3 lg:py-6 px-5 flex items-center justify-between cursor-pointer"
         >
           <span
             class="font-inter font-medium text-grey-50 lg:text-grey-600 text-lg"
             v-if="!format"
             >Select preferred format</span
           >
-          <span class="font-inter font-medium text-grey-50 lg:text-grey-600 text-lg" v-else
+          <span
+            class="font-inter font-medium text-grey-50 lg:text-grey-600 text-lg"
+            v-else
             >{{ format.title }} - {{ format.price }}</span
           >
           <Cheveron />

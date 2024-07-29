@@ -7,7 +7,7 @@
       v-observe-visibility="visibilityChanged"
     >
       <img
-        src="@/assets/images/bsr23-lg.png"
+        src="@/assets/images/bsr24-lg.png"
         alt="2023 Nigerian Banking Sector Report"
         class="w-[474px] h-auto"
         :class="{ scale: scale }"
@@ -85,7 +85,7 @@ export default {
     }
   },
   methods: {
-    visibilityChanged(isVisible, entry) {
+    visibilityChanged(isVisible) {
       if (isVisible) {
         this.scale = true
         //console.log('Entry', entry)

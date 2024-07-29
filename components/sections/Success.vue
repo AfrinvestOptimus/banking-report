@@ -18,7 +18,7 @@
             class="relative flex justify-center xl:block mb-10 xl:mb-0 lg:flex-1 xl:flex-none"
           >
             <img
-              src="@/assets/images/bsr23-sm.png"
+              src="@/assets/images/bsr24-sm.png"
               class="w-auto h-[220px] lg:h-[50vh] relative"
               alt="2021 Nigerian Banking Sector Report"
             />

@@ -43,7 +43,7 @@
         />
         <transition appear name="scale">
           <img
-            src="@/assets/images/bsr23-sm.png"
+            src="@/assets/images/bsr24-sm.png"
             class="w-auto h-[220px] lg:h-[50vh] relative"
             alt="2023 Nigerian Banking Sector Report"
           />
