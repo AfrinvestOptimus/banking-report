@@ -43,7 +43,7 @@
         />
         <transition appear name="scale">
           <img
-            src="@/assets/images/bsr23-sm.png"
+            src="@/assets/images/bsr24-sm.png"
             class="w-auto h-[220px] lg:h-[50vh] relative"
             alt="2023 Nigerian Banking Sector Report"
           />
@@ -57,42 +57,44 @@
             class="text-primary font-inter font-bold text-4xl leading-[114%] lg:text-5xl xl:text-[56px] lg:leading-[55px] xl:leading-[64px] pb-2 xl:pb-5"
           >
             <span class="hidden lg:block"
-              >2023 NIGERIAN<br />BANKING SECTOR<br /><span
+              >2024 NIGERIAN<br />BANKING SECTOR<br /><span
                 class="text-secondary"
                 >REPORT</span
               ></span
             >
             <span class="lg:hidden"
-              >2023 NIGERIAN BANKING SECTOR
+              >2024 NIGERIAN BANKING SECTOR
               <span class="text-secondary">REPORT</span></span
             >
           </h1>
           <p class="font-roboto text-base lg:text-lg leading-7 hidden lg:block">
-            Discover the impact of global economic risks and challenges on the
-            <br class="lg:hidden xl:block" />Nigerian banking sector, the
-            geopolitical and economic trends that are<br
+            Dive deep as we unravel the geopolitical and economic trends that<br
               class="lg:hidden xl:block"
             />
-            shaping the global financial landscape, and the ongoing challenges
-            that <br class="lg:hidden xl:block" />Nigeria faces in establishing
-            a viable economic model to fully harness its potential.
-            <!--            Discover how the Nigerian banking sector has fared in an economy <br class="lg:hidden xl:block" />
-            yet to fully shrug off the aftermath of the pandemic, and how to brace <br
-            class="lg:hidden xl:block"
-          />
-            for the impact of daunting fiscal, monetary, and social conditions.-->
+            are shaping the global financial landscape, the impact of global<br
+              class="lg:hidden xl:block"
+            />
+            economic risks and domestic policy reforms on the Nigerians and
+            the<br class="lg:hidden xl:block" />
+            banking sector, and the pursuit of recapitalising the deposit
+            money<br class="lg:hidden xl:block" />
+            banks to support the one-trillion-dollar economy target of the<br
+              class="lg:hidden xl:block"
+            />
+            federal government.
           </p>
           <p class="font-roboto text-base xl:text-lg leading-7 lg:hidden">
-            Discover the impact of global economic risks and challenges on the
-            Nigerian banking sector, the geopolitical and economic trends that
-            are shaping the global financial landscape, and the ongoing
-            challenges that Nigeria faces in establishing a viable economic
-            model to fully harness its potential.
+            Dive deep as we unravel the geopolitical and economic trends that
+            are shaping the global financial landscape, the impact of global
+            economic risks and domestic policy reforms on the Nigerians and the
+            banking sector, and the pursuit of recapitalising the deposit money
+            banks to support the one-trillion-dollar economy target of the
+            federal government.
           </p>
         </div>
         <div class="lg:flex lg:space-x-4 space-y-4 xl:space-y-0 py-2">
           <ActionButton
-            href="/BSR2023_SummaryNew.pdf"
+            href="/BSR2024_EXECUTIVESUMMARY.pdf"
             class="action-button justify-center px-5"
           >
             <template v-slot:icon>

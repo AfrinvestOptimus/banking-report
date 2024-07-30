@@ -222,7 +222,7 @@ export default {
   @apply lg:flex-1 w-full lg:w-auto;
 }
 .text-input {
-  @apply appearance-none border border-grey-500 rounded-[2px] w-full bg-transparent placeholder-grey-500 text-grey-900 text-sm px-5 py-2.5 leading-normal outline-none border-2 transition duration-500 ease-in-out;
+  @apply appearance-none border-grey-500 rounded-[2px] w-full bg-transparent placeholder-grey-500 text-grey-900 text-sm px-5 py-2.5 leading-normal outline-none border-2 transition duration-500 ease-in-out;
 }
 .isError {
   @apply border-2 border-red-500 transition duration-500 ease-in-out;
