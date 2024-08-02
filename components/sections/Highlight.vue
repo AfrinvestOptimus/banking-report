@@ -8,7 +8,7 @@
     >
       <img
         src="@/assets/images/bsr24-lg.png"
-        alt="2023 Nigerian Banking Sector Report"
+        alt="2024 Nigerian Banking Sector Report"
         class="w-[474px] h-auto"
         :class="{ scale: scale }"
       />

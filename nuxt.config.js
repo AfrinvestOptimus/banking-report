@@ -4,10 +4,10 @@ export default {
   //mode: 'spa',
   target: 'static',
   router: {
-    base: '/'
+    base: '/',
   },
   head: {
-    title: 'Afrinvest 2023 Banking Report',
+    title: 'Afrinvest 2024 Banking Report',
     htmlAttrs: {
       lang: 'en',
     },
@@ -24,7 +24,7 @@ export default {
       {
         hid: 'keywords',
         name: 'keywords',
-        content: 'banking report 2023, 2023 banking report',
+        content: 'banking report 2024, 2024 banking report',
       },
     ],
     link: [
@@ -47,7 +47,7 @@ export default {
     { src: '~/plugins/vue-scrollTo.js' },
     { src: '~/plugins/vee-validate.js' },
     { src: '~/plugins/vue-observe.js' },
-    { src: '~/plugins/vue-alert.js', mode: 'client' }
+    { src: '~/plugins/vue-alert.js', mode: 'client' },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
