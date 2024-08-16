@@ -38,7 +38,7 @@ const formatTypes = [
     id: 1,
     title: 'HARD COPY ONLY',
     subTitle: 'High color and graphics printed format of the report',
-    price: 'N150,000',
+    price: 'N500,000',
     selected: false,
   },
   {
